@@ -13,7 +13,9 @@ app.get("/", (req, res) => {
 });
 
 app.listen(8080, async () => {
-  await mongoose.connect("mongodb://localhost:27017/admin");
+  await mongoose.connect(
+    "mongodb+srv://mamajonovxayot0:a9IYKx6ht1L4Q3DL@xayotbek.gau92x8.mongodb.net/"
+  );
 
   console.log("Connection established listening on port http://localhost:8080");
 });
