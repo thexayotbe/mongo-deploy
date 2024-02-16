@@ -46,7 +46,6 @@ const App = () => {
       [e.target.name]: e.target.value,
     });
   };
-
   const handleCancel = () => {
     setIsModalOpen(false);
   };

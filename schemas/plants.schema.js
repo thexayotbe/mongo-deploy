@@ -20,6 +20,7 @@ const plantsModule = new Schema({
   },
 });
 
+
 module.exports = {
   gardening: mongoose.model("gardening", plantsModule),
   domestic: mongoose.model("domestic", plantsModule),
