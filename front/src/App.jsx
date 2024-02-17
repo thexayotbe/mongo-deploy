@@ -19,7 +19,6 @@ const App = () => {
     setEditData(data.filter((value) => value._id == _id)[0]);
     setIsModalOpen(true);
   };
-
   const getData = () => {
     axios({
       url: `http://localhost:8080/flower/${type}`,
@@ -194,5 +193,4 @@ const App = () => {
     </div>
   );
 };
-
 export default App;
